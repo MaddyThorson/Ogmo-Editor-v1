@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+	
+	<id>OgmoEditor</id> 
+	<version>0.918</version> 
+	<filename>Ogmo Editor</filename> 
+	
+	<name>Ogmo Editor</name> 
+	<description>www.mattmakesgames.com</description> 
+	<copyright>Copyright 2010-2011 Matt Thorson</copyright> 
+	<installFolder>OgmoEditor</installFolder>
+	<programMenuFolder>OgmoEditor</programMenuFolder>
+	
+	<initialWindow> 
+		<title>Ogmo Editor</title> 
+		<content>OgmoEditor.swf</content> 
+		<systemChrome>standard</systemChrome> 
+		<transparent>false</transparent> 
+		<visible>true</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+	</initialWindow> 
+	
+	<icon>
+		<image16x16>icons/16.png</image16x16>
+		<image32x32>icons/32.png</image32x32>
+		<image48x48>icons/48.png</image48x48>
+		<image128x128>icons/128.png</image128x128> 
+	</icon>
+	
+	<fileTypes>
+		<fileType>
+			<name>OgmoEditor.ProjectFile</name>
+			<extension>oep</extension>
+			<description>Ogmo Editor Project File</description>
+			<contentType>application/xml</contentType>
+			<icon>
+				<image16x16>icons/proj16.png</image16x16>      
+				<image32x32>icons/proj32.png</image32x32>      
+				<image48x48>icons/proj48.png</image48x48>     
+				<image128x128>icons/proj128.png</image128x128>
+			</icon>
+		</fileType>
+		
+		<fileType>
+			<name>OgmoEditor.LevelFile</name>
+			<extension>oel</extension>
+			<description>Ogmo Editor Level File</description>
+			<contentType>application/xml</contentType>
+			<icon>
+				<image16x16>icons/lvl16.png</image16x16>      
+				<image32x32>icons/lvl32.png</image32x32>      
+				<image48x48>icons/lvl48.png</image48x48>     
+				<image128x128>icons/lvl128.png</image128x128>
+			</icon>
+		</fileType>
+	</fileTypes>
+	
+	<!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
